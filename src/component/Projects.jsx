@@ -47,7 +47,9 @@ const PROJECTS = [
     id: 5,
     title: "ResQure",
     description:
-      "NetVision is an educational, browser-based networking visualization tool designed to help students understand core computer networking concepts through interactive simulations and real implementations. The project visualizes how TCP, HTTP, DNS, and TCP congestion control mechanisms work internally, bridging the gap between theory and practice.",
+      "ResQure is an emergency response platform designed to assist citizens, administrators, and responders during critical situations. The system focuses on efficient communication, disaster reporting, and streamlined coordination to ensure rapid response and effective management of emergency events.",
+
+
 
     tech: ["Java", "JavaFx", "MySQL","Socket Programming"],
     github: "https://github.com/srs4929/RESQURE-OOP-PROJECT-2-1-.git",
