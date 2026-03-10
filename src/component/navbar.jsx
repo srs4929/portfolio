@@ -12,14 +12,14 @@ function Navbar() {
       <h1 className="text-sky-400 text-2xl font-extrabold tracking-wide">srs4929</h1>
 
       {/* Desktop Menu */}
-      <ul className="hidden md:flex gap-6 text-sky-400 text-lg font-medium">
-        <li><a href="#home" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-lg">Home</a></li>
-        <li><a href="#about" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-lg">About</a></li>
-        <li><a href="#experience" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-lg">Experience</a></li>
-        <li><a href="#education" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-lg">Education</a></li>
-        <li><a href="#projects" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-lg">Projects</a></li>
-        <li><a href="#skills" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-lg">Skills</a></li>
-        <li><a href="#contact" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-lg">Contact</a></li>
+      <ul className="hidden md:flex gap-6 text-sky-400 text-base font-medium">
+        <li><a href="#home" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-sm">Home</a></li>
+        <li><a href="#about" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-sm">About</a></li>
+        <li><a href="#experience" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-sm">Experience</a></li>
+        <li><a href="#education" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-sm">Education</a></li>
+        <li><a href="#projects" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-sm">Projects</a></li>
+        <li><a href="#skills" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-sm">Skills</a></li>
+        <li><a href="#contact" className="hover:text-sky-300 transition-colors uppercase tracking-wider text-sm">Contact</a></li>
       </ul>
 
       {/* Mobile Hamburger */}

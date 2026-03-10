@@ -87,7 +87,7 @@ function Projects() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.6 }}
-        className="text-5xl md:text-6xl font-bold mb-12 text-center tracking-wide text-sky-400"
+        className="text-4xl md:text-5xl font-bold mb-12 text-center tracking-wide text-sky-400"
       >
         Featured Projects
       </motion.h2>
@@ -133,7 +133,7 @@ function Projects() {
                 </h3>
 
                 {/* Description with View More */}
-                <p className="text-slate-400 mb-6 leading-relaxed text-base md:text-lg">
+                <p className="text-slate-400 mb-6 leading-relaxed text-sm md:text-base">
                   {expanded[project.id]
                     ? project.description
                     : project.description.slice(0, 120) +

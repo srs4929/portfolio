@@ -29,7 +29,7 @@ function Skills() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.6 }}
-          className="text-5xl md:text-6xl font-bold mb-16 text-center tracking-wide text-sky-400"
+          className="text-4xl md:text-5xl font-bold mb-16 text-center tracking-wide text-sky-400"
         >
           My Skills
         </motion.h2>

@@ -10,7 +10,7 @@ const experiences = [
    
   {
     role: "Assistant General Secretary (Organization)",
-    company: "CSEDU Student’s Club",
+    company: "CSEDU Students'  Club",
     period: "Feb 2024 – Present",
    
   },
@@ -37,7 +37,7 @@ function Experience() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.6 }}
-         className="text-5xl md:text-6xl font-bold mb-16 text-center text-sky-400 tracking-tight">
+         className="text-4xl md:text-5xl font-bold mb-16 text-center text-sky-400 tracking-tight">
           Experience
         </motion.h2>
 
@@ -57,10 +57,10 @@ function Experience() {
               />
 
               <div className="bg-transparent backdrop-blur-sm rounded-2xl p-6 border border-slate-700/50 shadow-xl hover:border-sky-500/30 hover:shadow-[0_4px_20px_rgba(56,189,248,0.15)] transition-all duration-500 group">
-                <h3 className="text-2xl font-bold text-white group-hover:text-sky-400 transition-colors">
+                <h3 className="text-xl font-bold text-white group-hover:text-sky-400 transition-colors">
                   {exp.role}
                 </h3>
-                <h4 className="text-xl text-slate-300 mt-1 mb-2 font-medium">
+                <h4 className="text-lg text-slate-300 mt-1 mb-2 font-medium">
                   {exp.company}
                 </h4>
                 <div className="inline-block px-3 py-1 bg-sky-500/10 text-sky-400 rounded-full text-sm font-semibold mt-2">

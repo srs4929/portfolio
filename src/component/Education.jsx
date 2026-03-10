@@ -22,7 +22,7 @@ function Education() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.8 }}
-          className="text-5xl md:text-6xl font-bold mb-16 text-center text-sky-400 tracking-tight"
+          className="text-4xl md:text-5xl font-bold mb-16 text-center text-sky-400 tracking-tight"
         >
           Education
         </motion.h2>
@@ -47,7 +47,7 @@ function Education() {
               {/* Text Content */}
               <div className="flex-1">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-1">
-                  <h3 className="text-3xl md:text-4xl font-bold text-white group-hover:text-sky-400 transition-colors mb-4">
+                  <h3 className="text-2xl md:text-3xl font-bold text-white group-hover:text-sky-400 transition-colors mb-4">
                     {edu.degree}
                   </h3>
                   <span className="text-sky-400 font-medium text-sm md:text-base mt-1 md:mt-0 tracking-wide">
@@ -59,7 +59,7 @@ function Education() {
                   {edu.institution}
                 </h4>
                 
-                <p className="text-lg md:text-xl text-slate-400 leading-relaxed">
+                <p className="text-base md:text-lg text-slate-400 leading-relaxed">
                   {edu.description}
                 </p>
               </div>

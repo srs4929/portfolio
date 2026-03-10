@@ -12,7 +12,7 @@ function About() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.1 }}
           transition={{ duration: 0.6 }}
-          className="text-5xl md:text-6xl font-extrabold mb-8 text-sky-400 w-full text-center tracking-tight drop-shadow-sm"
+          className="text-4xl md:text-5xl font-extrabold mb-8 text-sky-400 w-full text-center tracking-tight drop-shadow-sm"
         >
           About Me
         </motion.h2>
@@ -23,7 +23,7 @@ function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.1 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-slate-300 text-xl md:text-2xl leading-relaxed font-medium"
+            className="text-slate-200 text-lg md:text-xl leading-relaxed font-medium"
           >
             I enjoy tackling challenging problems and turning complex ideas into practical solutions. 
             Over time, I’ve developed a love for experimenting with different technologies and frameworks, 
@@ -35,7 +35,7 @@ function About() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-slate-300 text-xl md:text-2xl leading-relaxed font-medium"
+            className="text-slate-300 text-lg md:text-xl leading-relaxed font-medium"
           >
             Beyond coding, I am curious about how technology can shape the world, and I aim to contribute to projects that make a real impact. 
             I enjoy collaborating with others, exchanging ideas, and bringing innovative solutions to life.
